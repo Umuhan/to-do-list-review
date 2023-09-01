@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: aliceblue;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.container {
+  width: 40%;
+  background-color: white;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#taskInput {
+  width: 85%;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  background-color: #fdfafa;
+}
+
+#addTaskButton {
+  height: 40px;
+  padding: 5px 5px;
+  border: none;
+  outline: none;
+  background-color: rgb(243, 211, 205);
+  color: #7a6f6f;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+li {
+  padding-left: 10px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  list-style: none;
+  margin-top: 10px;
+  background-color: #fff8f8;
+}
+
+.task-item li {
+  position: relative;
+}
+
+.checkbox {
+  color: #555;
+  text-decoration: line-through;
+}
+
+.btn {
+  border: none;
+  background-color: rgb(243, 211, 205);
+  color: #7a6f6f;
+  padding: 10px 10px;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+#clearCompletedButton {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-top: 210px;
+}
